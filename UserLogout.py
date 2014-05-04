@@ -3,10 +3,12 @@ import datetime
 
 s = requests.Session()
 
+application_id = '01832d316a2655bc17523d78862950fc'
+
 while True:
     print('Введите ник для поиска:')
     nickname = input()
-    r = s.get("https://api.worldoftanks.ru/wot/account/list/", params={'application_id': '01832d316a2655bc17523d78862950fc', 'search': nickname}).json()    
+    r = s.get("https://api.worldoftanks.ru/wot/account/list/", params={'application_id': application_id, 'search': nickname}).json()    
     if r['status'] == 'ok'and r['count'] == 0:
         print('Не нашел такого игрока. :(')
     elif r['status'] == 'ok':
@@ -18,7 +20,7 @@ if r['count'] != 0:
     account_id = [r_data['account_id'] for r_data in r['data'] if r_data['nickname'] == nickname][0]
 
 
-    r = s.get('https://api.worldoftanks.ru/wot/account/info/', params={'application_id': '01832d316a2655bc17523d78862950fc', 'account_id': account_id}).json()
+    r = s.get('https://api.worldoftanks.ru/wot/account/info/', params={'application_id': application_id, 'account_id': account_id}).json()
 
     timestamp = [r['data'][str(account_id)]['logout_at'], r['data'][str(account_id)]['last_battle_time']]  # not converted
 
