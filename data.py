@@ -1,28 +1,40 @@
 import json
 import struct
 
-replay = open("20140523_1840_usa-T34_hvy_38_mannerheim_line.wotreplay", "rb")
+replay = open("20140523_1828_usa-T34_hvy_10_hills.wotreplay", "rb")
 # Эти 8 байтов ты тупо пропускаешь
 
-replay.read(8)
+header = replay.read( 8 )
+if header[4] == 1: # статистики нет
+	length = replay.read(4)
+	length = struct.unpack('i', length)
+	data = replay.read(length[0])
 
-length = replay.read(4)
-length = struct.unpack('i', length)
-data = replay.read(length[0])
+	d = json.loads(data.decode("ascii"))
 
-d = json.loads(data.decode("ascii"))
+	print(d)
 
-print(d.keys())
+elif header[4] == 2: # статистика есть
+	length = replay.read(4)
+	length = struct.unpack('i', length)
+	data = replay.read(length[0])
 
-length = replay.read(4)
-length = struct.unpack('i', length)
+	d = json.loads(data.decode("ascii"))
 
-data = replay.read(length[0])
+	print(d)
 
-print(length)
-f = open('data.txt', 'a')
-f.write(str(data))
+	length = replay.read(4)
+	length = struct.unpack('i', length)
 
-l = json.loads(data.decode("ascii"))
+	data = replay.read(length[0])
 
-print(len(l))
+	print(length)
+	f = open('data.txt', 'a')
+	f.write(str(data))
+
+	l = json.loads(data.decode("ascii"))
+
+	print(len(l))
+
+else: # все плохо
+	print('Error')
