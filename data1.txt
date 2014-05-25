@@ -1,0 +1,366 @@
+{
+  "serverName": "WOT RU5",
+  "roamingSettings": [
+    1,
+    1,
+    [
+      [
+        1,
+        1,
+        499999999,
+        "RU"
+      ],
+      [
+        2,
+        500000000,
+        999999999,
+        "EU"
+      ],
+      [
+        3,
+        1000000000,
+        1499999999,
+        "NA"
+      ]
+    ],
+    [
+      [
+        201,
+        "WOT EU1",
+        "login.p1.worldoftanks.eu:20016",
+        "loginapp_wot.pubkey"
+      ],
+      [
+        202,
+        "WOT EU2",
+        "login.p2.worldoftanks.eu:20016",
+        "loginapp_wot.pubkey"
+      ],
+      [
+        301,
+        "NA East",
+        "login-p1.worldoftanks.com:20016",
+        "loginapp_wot.pubkey"
+      ],
+      [
+        302,
+        "NA West",
+        "login-p2.worldoftanks.com:20016",
+        "loginapp_wot.pubkey"
+      ]
+    ]
+  ],
+  "playerName": "antareada",
+  "gameplayID": "domination",
+  "mapName": "34_redshire",
+  "vehicles": {
+    "28350236": {
+      "name": "MihasyRu",
+      "igrType": 0,
+      "isTeamKiller": false,
+      "clanAbbrev": "",
+      "vehicleType": "ussr:IS-3",
+      "team": 1,
+      "events": {},
+      "isAlive": true
+    },
+    "28350232": {
+      "name": "MAXRUS2004",
+      "igrType": 0,
+      "isTeamKiller": false,
+      "clanAbbrev": "",
+      "vehicleType": "ussr:IS-3",
+      "team": 1,
+      "events": {},
+      "isAlive": true
+    },
+    "28350235": {
+      "name": "albert676",
+      "igrType": 0,
+      "isTeamKiller": false,
+      "clanAbbrev": "",
+      "vehicleType": "ussr:IS-3",
+      "team": 2,
+      "events": {},
+      "isAlive": true
+    },
+    "28350228": {
+      "name": "SKV15",
+      "igrType": 0,
+      "isTeamKiller": false,
+      "clanAbbrev": "",
+      "vehicleType": "ussr:KV4",
+      "team": 1,
+      "events": {},
+      "isAlive": true
+    },
+    "28350256": {
+      "name": "Gosha_Kolpino",
+      "igrType": 0,
+      "isTeamKiller": false,
+      "clanAbbrev": "",
+      "vehicleType": "ussr:IS-3",
+      "team": 2,
+      "events": {},
+      "isAlive": true
+    },
+    "28350229": {
+      "name": "mfpuriy",
+      "igrType": 0,
+      "isTeamKiller": false,
+      "clanAbbrev": "",
+      "vehicleType": "ussr:IS-3",
+      "team": 1,
+      "events": {},
+      "isAlive": true
+    },
+    "28350233": {
+      "name": "NowUSA",
+      "igrType": 0,
+      "isTeamKiller": false,
+      "clanAbbrev": "",
+      "vehicleType": "usa:M53_55",
+      "team": 1,
+      "events": {},
+      "isAlive": true
+    },
+    "28350248": {
+      "name": "serimpochornomu",
+      "igrType": 0,
+      "isTeamKiller": false,
+      "clanAbbrev": "",
+      "vehicleType": "ussr:IS-3",
+      "team": 2,
+      "events": {},
+      "isAlive": true
+    },
+    "28350245": {
+      "name": "senya1313",
+      "igrType": 0,
+      "isTeamKiller": false,
+      "clanAbbrev": "",
+      "vehicleType": "france:AMX_AC_Mle1948",
+      "team": 2,
+      "events": {},
+      "isAlive": true
+    },
+    "28350251": {
+      "name": "bobr_i",
+      "igrType": 0,
+      "isTeamKiller": false,
+      "clanAbbrev": "",
+      "vehicleType": "usa:T34_hvy",
+      "team": 2,
+      "events": {},
+      "isAlive": true
+    },
+    "28350255": {
+      "name": "AmoKK256",
+      "igrType": 0,
+      "isTeamKiller": false,
+      "clanAbbrev": "KRBH",
+      "vehicleType": "france:AMX_50_100",
+      "team": 2,
+      "events": {},
+      "isAlive": true
+    },
+    "28350252": {
+      "name": "goodvalter",
+      "igrType": 0,
+      "isTeamKiller": false,
+      "clanAbbrev": "",
+      "vehicleType": "germany:G_Panther",
+      "team": 2,
+      "events": {},
+      "isAlive": true
+    },
+    "28350246": {
+      "name": "antareada",
+      "igrType": 0,
+      "isTeamKiller": false,
+      "clanAbbrev": "",
+      "vehicleType": "china:Ch23_112",
+      "team": 2,
+      "events": {},
+      "isAlive": true
+    },
+    "28350242": {
+      "name": "RX300",
+      "igrType": 0,
+      "isTeamKiller": false,
+      "clanAbbrev": "",
+      "vehicleType": "ussr:Object252",
+      "team": 1,
+      "events": {},
+      "isAlive": true
+    },
+    "28350243": {
+      "name": "Blatnoy7777",
+      "igrType": 0,
+      "isTeamKiller": false,
+      "clanAbbrev": "",
+      "vehicleType": "germany:RhB_Waffentrager",
+      "team": 2,
+      "events": {},
+      "isAlive": true
+    },
+    "28350237": {
+      "name": "gennadi82",
+      "igrType": 0,
+      "isTeamKiller": false,
+      "clanAbbrev": "FDMI-",
+      "vehicleType": "usa:T28_Prototype",
+      "team": 1,
+      "events": {},
+      "isAlive": true
+    },
+    "28350240": {
+      "name": "Tobikaji",
+      "igrType": 0,
+      "isTeamKiller": false,
+      "clanAbbrev": "",
+      "vehicleType": "france:AMX_50_100",
+      "team": 1,
+      "events": {},
+      "isAlive": true
+    },
+    "28350250": {
+      "name": "SeregaNov",
+      "igrType": 0,
+      "isTeamKiller": false,
+      "clanAbbrev": "K_T_B",
+      "vehicleType": "usa:T34_hvy",
+      "team": 1,
+      "events": {},
+      "isAlive": true
+    },
+    "28350231": {
+      "name": "Po3oBueTpycuKI",
+      "igrType": 0,
+      "isTeamKiller": false,
+      "clanAbbrev": "VORMI",
+      "vehicleType": "germany:PzVIB_Tiger_II",
+      "team": 1,
+      "events": {},
+      "isAlive": true
+    },
+    "28350249": {
+      "name": "Timmiev",
+      "igrType": 0,
+      "isTeamKiller": false,
+      "clanAbbrev": "",
+      "vehicleType": "france:FCM_50t",
+      "team": 2,
+      "events": {},
+      "isAlive": true
+    },
+    "28350241": {
+      "name": "aleksess22",
+      "igrType": 0,
+      "isTeamKiller": false,
+      "clanAbbrev": "",
+      "vehicleType": "japan:STA_1",
+      "team": 1,
+      "events": {},
+      "isAlive": true
+    },
+    "28350254": {
+      "name": "Everlastdrog",
+      "igrType": 0,
+      "isTeamKiller": false,
+      "clanAbbrev": "",
+      "vehicleType": "usa:T34_hvy",
+      "team": 2,
+      "events": {},
+      "isAlive": true
+    },
+    "28350244": {
+      "name": "golodranec88888",
+      "igrType": 0,
+      "isTeamKiller": false,
+      "clanAbbrev": "",
+      "vehicleType": "usa:T34_hvy",
+      "team": 1,
+      "events": {},
+      "isAlive": true
+    },
+    "28350234": {
+      "name": "vovuscrash",
+      "igrType": 0,
+      "isTeamKiller": false,
+      "clanAbbrev": "",
+      "vehicleType": "ussr:IS-3",
+      "team": 1,
+      "events": {},
+      "isAlive": true
+    },
+    "28350238": {
+      "name": "ParamonIl",
+      "igrType": 0,
+      "isTeamKiller": false,
+      "clanAbbrev": "",
+      "vehicleType": "china:Ch11_110",
+      "team": 2,
+      "events": {},
+      "isAlive": true
+    },
+    "28350257": {
+      "name": "Region05kz",
+      "igrType": 0,
+      "isTeamKiller": false,
+      "clanAbbrev": "",
+      "vehicleType": "germany:VK4502A",
+      "team": 1,
+      "events": {},
+      "isAlive": true
+    },
+    "28350253": {
+      "name": "Iha4apuriI",
+      "igrType": 0,
+      "isTeamKiller": false,
+      "clanAbbrev": "",
+      "vehicleType": "germany:PzVIB_Tiger_II",
+      "team": 2,
+      "events": {},
+      "isAlive": true
+    },
+    "28350247": {
+      "name": "Kamanin2014",
+      "igrType": 0,
+      "isTeamKiller": false,
+      "clanAbbrev": "",
+      "vehicleType": "ussr:SU14_1",
+      "team": 2,
+      "events": {},
+      "isAlive": true
+    },
+    "28350230": {
+      "name": "aRs00",
+      "igrType": 0,
+      "isTeamKiller": false,
+      "clanAbbrev": "",
+      "vehicleType": "uk:GB11_Caernarvon",
+      "team": 1,
+      "events": {},
+      "isAlive": true
+    },
+    "28350239": {
+      "name": "vovan2971",
+      "igrType": 0,
+      "isTeamKiller": false,
+      "clanAbbrev": "",
+      "vehicleType": "ussr:IS-3",
+      "team": 2,
+      "events": {},
+      "isAlive": true
+    }
+  },
+  "clientVersionFromXml": "World\u00a0of\u00a0Tanks v.0.9.0 #683",
+  "battleType": 1,
+  "dateTime": "24.05.2014 23:04:18",
+  "mapDisplayName": "\u0420\u0435\u0434\u0448\u0438\u0440",
+  "playerVehicle": "china-Ch23_112",
+  "regionCode": "RU",
+  "clientVersionFromExe": "0, 9, 0, 0",
+  "playerID": 10894576
+}
