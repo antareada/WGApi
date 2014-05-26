@@ -1,16 +1,12 @@
 import json
 import struct
-import requests
-
-s = requests.Session()
-
-application_id = '01832d316a2655bc17523d78862950fc'
 
 lvl = [0, 2, 3, 5, 8, 12, 18, 27, 40, 60, 100]
 types = {'mediumTank': 1, 'heavyTank': 1.2, 'AT-SPG': 1.2, 'SPG': 1, 'lightTank': 1}
 d = {'Object252': 'IS-6'}
-r = s.get("https://api.worldoftanks.ru/wot/encyclopedia/tanks/?application_id=demo&fields=name,type,level").json()
 
+f = open('tanks.txt', 'r')
+r = json.loads(f.read())
 
 def team(team_number, data):
 	return list(d['vehicleType'].split(':')[1] for d in data['vehicles'].values() if d['team'] == team_number)
@@ -28,6 +24,7 @@ def statical_data():
 
 	print(first_team)
 	print(second_team)
+
 
 	tank_dict = tanks(r)
 	print("Первая команда:")
